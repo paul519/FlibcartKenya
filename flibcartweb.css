@@ -1,0 +1,85 @@
+/* Apply some basic styles to the header */
+header {
+    background: linear-gradient(to right, #1490e2, #ff5a48);
+    color: #fff; /* Text color for the header */
+    padding: 5px; /* Add some spacing inside the header */
+    text-align: center; /* Center-align the content within the header */
+}
+
+/* Style the main title (h1) */
+header h1 {
+    font-size: 36px; /* Adjust the font size */
+    margin: 0; /* Remove any default margins */
+}
+
+/* Style the navigation menu */
+header nav ul {
+    list-style-type: none; /* Remove bullet points from the list */
+    padding: 0; /* Remove padding from the list */
+}
+
+/* Style the navigation menu items (list items) */
+header nav li {
+    display: inline; /* Display list items in a horizontal line */
+    margin-right: 20px; /* Add spacing between menu items */
+}
+
+/* Style the navigation links (anchor tags) */
+header nav a {
+    text-decoration: none; /* Remove underlines from links */
+    color: #fff; /* Text color for links */
+    font-weight: bold; /* Apply bold font to links */
+    transition: color 0.3s ;
+}
+header nav a:hover {
+    color: #1b1919; /* Change the color on hover */
+}
+
+/* Style the link when clicked */
+header nav a:active {
+    color: #2734e4; /* Change the color when clicked (active state) */
+}
+.startparagraph {
+    font-size: 20px;
+    line-height: 1.4;
+    margin: 10px 0;
+    color: #333;
+}
+.image-container {
+    display: flex;
+}
+
+/* Style for each image and description */
+.image-item {
+    margin-right: 20px; /* Add spacing between images */
+    text-align: center;
+}
+
+.image-item img {
+    max-width: 100%; /* Ensure images don't exceed their container width */
+}
+
+.image-description {
+    margin-top: 5px; /* Add spacing between image and description */
+    width: 250px;
+}
+.image-description1 {
+    margin-top: 5px; /* Add spacing between image and description */
+    width: 380px;
+}
+/* Define a CSS animation called 'colorChange' */
+@keyframes colorChange {
+    0% { color: red; } /* Initial color */
+    25% { color: blue; } /* 25% into the animation, change to blue */
+    50% { color: green; } /* 50% into the animation, change to green */
+    75% { color: orange; } /* 75% into the animation, change to orange */
+    100% { color: purple; } /* Final color */
+}
+
+/* Apply the animation to the <a> element with class 'random-color' */
+.random-color {
+    animation: colorChange 4s infinite; /* 4s duration, infinite looping */
+}
+.title2{
+    color: #ff5a48;
+}
